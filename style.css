@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+
+}
+
+.main{
+height: 100vh;
+width: 100%;
+background: url("pic.jpg") center no-repeat;
+background-size: cover;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main .wrapper{
+    max-width: 370px;
+    width: 100%;
+    box-shadow: 0 5px 20px  rgb(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+h1{
+    color: #7505d1b4;
+    font-size: 28px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .wrapper .inputs{
+    margin-top: 20px;
+    color: #61046d;
+
+
+}
+
+.inputs input{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #031058;
+    color: #61046d;
+    padding: 0 0 0 10px;
+    outline: none;
+    background-color:inherit;
+    transition-duration: 1s;
+    
+}
+
+input:focus {
+    transform: translateX(-5%);
+
+}
+  
+
+
+
+::placeholder { 
+    opacity: 1;
+  }
+ 
+.inputs i{
+    color: #61046d;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+
+}
+
+.main .wrapper .forget_remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 20px;
+}
+.remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.remember label{
+    margin:  0 0 0 5px;
+}
+
+.forget  a{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+ .main .wrapper .btn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 23px 0 0;
+margin-top: 20px;
+}
+
+
+.main .wrapper .btn .input_btn{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #031058;
+    color: #000000;
+    outline: none;
+    background-color:#fff;
+    width: 70px;
+    }
+
+    
+    
+.main .wrapper .register{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+}    
+
+.register a{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 0 4px;
+    text-decoration: none;
+}
